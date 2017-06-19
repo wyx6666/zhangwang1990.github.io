@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2017-06-19T09:32:27.000Z</updated>
+  <updated>2017-06-19T09:46:40.000Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -20,10 +20,11 @@
     <link href="http://yoursite.com/2017/06/19/es6-basic/"/>
     <id>http://yoursite.com/2017/06/19/es6-basic/</id>
     <published>2017-06-19T09:18:37.000Z</published>
-    <updated>2017-06-19T09:32:27.000Z</updated>
+    <updated>2017-06-19T09:46:40.000Z</updated>
     
     <content type="html"><![CDATA[<h3 id="说明"><a href="#说明" class="headerlink" title="说明"></a>说明</h3><p>其实平时做项目时，无意识的已经在使用ES6提供的一些新特效了（<code>let</code>,<code>const</code>,<code>promise</code>,<code>Template strings</code>,<code>Class</code>,箭头函数等等）。但是虽然ES7都出来了，ES6中的一些非常有效的特性我却没怎么用，当人们这些新特性中的很多单一点就能写一篇复杂的文章，本文并不是那种大而全的文章，而企图以简洁的文字配合示例来说清各新特性的作用和用法。</p>
 <p>本文的主体结构继承自<a href="https://github.com/lukehoban/es6features" target="_blank" rel="external">ECMAScript 6 Features</a>，大家可以把本文看做加注释的翻译。</p>
+<a id="more"></a>
 <h3 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h3><p>ECMAScript6 又称ECMAScript2015，是ECMAScript标准的最新版(现在应该是ES7了），对JS语言而言，ES6是一个重大更新，也是自2009年发布ES5之后的第一次更新，浏览器对ES6标准的支持也是<a href="http://kangax.github.io/compat-table/es6/" target="_blank" rel="external">越来越好</a>。对ES6完整的叙述可见<a href="http://www.ecma-international.org/ecma-262/6.0/" target="_blank" rel="external">ES6 standard</a>。</p>
 <p>简单说来，ES6的更新主要为以下方面（大家可以依据自己不算清晰的点选择性查看本文）：</p>
 <ul>
@@ -127,7 +128,8 @@
     
     <summary type="html">
     
-      &lt;h3 id=&quot;说明&quot;&gt;&lt;a href=&quot;#说明&quot; class=&quot;headerlink&quot; title=&quot;说明&quot;&gt;&lt;/a&gt;说明&lt;/h3&gt;&lt;p&gt;其实平时做项目时，无意识的已经在使用ES6提供的一些新特效了（&lt;code&gt;let&lt;/code&gt;,&lt;code&gt;const&lt;/code&gt;,&lt;co
+      &lt;h3 id=&quot;说明&quot;&gt;&lt;a href=&quot;#说明&quot; class=&quot;headerlink&quot; title=&quot;说明&quot;&gt;&lt;/a&gt;说明&lt;/h3&gt;&lt;p&gt;其实平时做项目时，无意识的已经在使用ES6提供的一些新特效了（&lt;code&gt;let&lt;/code&gt;,&lt;code&gt;const&lt;/code&gt;,&lt;code&gt;promise&lt;/code&gt;,&lt;code&gt;Template strings&lt;/code&gt;,&lt;code&gt;Class&lt;/code&gt;,箭头函数等等）。但是虽然ES7都出来了，ES6中的一些非常有效的特性我却没怎么用，当人们这些新特性中的很多单一点就能写一篇复杂的文章，本文并不是那种大而全的文章，而企图以简洁的文字配合示例来说清各新特性的作用和用法。&lt;/p&gt;
+&lt;p&gt;本文的主体结构继承自&lt;a href=&quot;https://github.com/lukehoban/es6features&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;ECMAScript 6 Features&lt;/a&gt;，大家可以把本文看做加注释的翻译。&lt;/p&gt;
     
     </summary>
     
